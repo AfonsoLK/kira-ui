@@ -61,7 +61,7 @@ fi
 
 # --- 4. Install project dependencies ---
 echo "📦 Installing dependencies with Poetry..."
-poetry install
+poetry install --no-root
 
 # --- 5. Start the Postgres container ---
 echo "🐳 Starting the Postgres container..."

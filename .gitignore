@@ -1,0 +1,41 @@
+# Ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Ambientes virtuais (caso alguém crie um manualmente fora do Poetry)
+.venv/
+venv/
+env/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Poetry
+# (não ignore o poetry.lock — ele DEVE ser versionado)
+
+# Docker
+docker-compose.override.yml
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testes / cobertura
+.coverage
+htmlcov/
+.pytest_cache/

@@ -11,7 +11,9 @@ dependencies = [
     "django-ninja (>=1.7.0,<2.0.0)",
     "psycopg2-binary (>=2.9.12,<3.0.0)",
     "django-environ (>=0.14.0,<0.15.0)",
-    "pgvector (>=0.5.0,<0.6.0)"
+    "pgvector (>=0.5.0,<0.6.0)",
+    "scalar-ninja (>=0.3.0,<0.4.0)",
+    "pillow (>=12.3.0,<13.0.0)"
 ]
 
 

@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'core',
     'authentication',
     'users',
+    'posts',
 ]
 
 MIDDLEWARE = [
